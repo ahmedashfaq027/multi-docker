@@ -21,7 +21,7 @@ after_success:
   - docker push ahmedashfaq027/multi-server
   - docker push ahmedashfaq027/multi-worker
 
-DEPLOY:
+deploy:
   provider: elasticbeanstalk
   region: us-west-1
   app: multi-dockers
